@@ -21,7 +21,7 @@ This script needs just two arguments:
   __-in__ - input file (file with unnamed sequences)  
   __-out__ - output file (file for named sequences)  
 
-You need write full path/to/the/file, like that:
+You need write full __path/to/the/file__, like that:
 ```
 python MasterBlaster.py -in path/to/my/unnamed_sequences_file.fasta -out path/to/the/file_with_named_sequences.fasta
 ```
