@@ -1,7 +1,7 @@
 # MasterBlaster
 Tool for fast BLAST search and name contigs  
 ![MasterBLASTer](https://github.com/chebaleksandr/MasterBlaster/blob/master/mad-max-3-master-blaster.jpg)  
-##Description
+## Description
 For input this script take fasta file with unnamed sequences, BLAST it and return fasta file with named sequences, like: 
 ```
 >rr  
@@ -10,13 +10,13 @@ GAAACAATTTGGTTGGTACCAATTAAGCAACTCAAAGTGACCTATCACCATTTGAGAAGCCAGTCTCAAGAAGCAGCCTA
 >Lichtheimia ramosa strain JMRC FSU:6197 genome assembly, scaffold: SCAF9  
 GAAACAATTTGGTTGGTACCAATTAAGCAACTCAAAGTGACCTATCACCATTTGAGAAGCCAGTCTCAAGAAGCAGCCTATTATCAAAGAACAGGATATGGCTCGGATATTTTGTACGAATGTAATCAGC
 ```
-##Dependencies
+## Dependencies
 To run this script, you nees __python3__, and current libraries:  
   [argparse](https://docs.python.org/3/library/argparse.html)  
   [biopython](http://biopython.org/)  
   [fileinput](https://docs.python.org/2/library/fileinput.html)  
 
-##Run
+## Run
 This script needs just two arguments:  
   __-in__ - input file (file with unnamed sequences)  
   __-out__ - output file (file for named sequences)  
